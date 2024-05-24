@@ -1,0 +1,131 @@
+:root {
+  --mainColor: #060d56;
+  --secondaryColor: #183584;
+  --acsentColor: #ffffff;
+}
+body {
+  background-color: var(--mainColor);
+  min-height: 900px;
+  font-family: "Quicksand", sans-serif;
+}
+section h1 {
+  color: #fff;
+  font-size: 2.5rem;
+}
+.nav-link.active {
+  color: var(--acsentColor) !important;
+  font-weight: 700;
+}
+.color-acsent {
+  color: vr(--acsentColor);
+}
+#hero {
+  color: #fff;
+  min-height: 100vh;
+}
+#hero h1 {
+  font-size: 3rem;
+}
+#hero h2 {
+  font-weight: 100;
+}
+#hero p{
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+.btn-custom1{
+    background-color: var(--secondaryColor);
+    text-align: center;
+    color: #fff;
+    min-width: 150px;
+    height: 45px;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.btn-custom1:hover{
+    box-shadow: 0 0 5px rgb(255, 179, 0);
+}
+.ms{
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+.social-icon svg{
+  margin-right: 0.7em;
+  margin-bottom: 10px;
+}
+hr{
+  width: 35%;
+  height: 5px;
+  color: var(--acsentColor);
+  margin: auto;
+  opacity: 100%;
+}
+.about{
+  background-color: var(--secondaryColor);
+  min-height: 300px;
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-bottom: 80px;
+/* Awal Skill */
+}
+#skill{
+  min-height: 600px;
+  width: 100%;
+  color: #fff;
+  padding-top: 80px;
+  margin-bottom: 80px;
+  padding-bottom: 80px;
+
+}
+#skill img{
+  width: 12%;
+  margin: 10px;
+}
+/* Akhir Skill */
+/* Projects */
+#project{
+  background-color: var(--secondaryColor);
+  color: #ffffff !important;
+  padding-top: 155px;
+  margin-bottom: 80px;
+  margin-top: 80px;
+  padding-bottom: 95px;
+
+}
+#project img{
+  width: 45%;
+  margin: 10px;
+}
+/* Akhir Projects */
+/* Sertfikat */
+#sertifikat{
+  padding-top: 80px;
+  margin-bottom: 80px;
+  padding-bottom: 80px;
+}
+#sertifikat .container{
+  padding: 80px 10px;
+}
+
+/* Akhir Sertifikat */
+/* footer */
+footer{
+  color: #ffffff;
+  font-weight: bold;
+  padding-top: auto;
+  padding-bottom: ;
+}
+/* Akhir Footer */
+#contact{
+  background-color: var(--secondaryColor);
+  color: #ffffff;
+  padding-top: 150px;
+  margin-bottom: 150px;
+  padding-bottom: 150px;
+}
+.link{
+  color: #ffffff;
+  
+}
